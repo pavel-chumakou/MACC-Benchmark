@@ -35,11 +35,11 @@ Every benchmark executes exactly the same memory access actions:
 java TestResultsComposer.java ./win11_amd_8840hs/
 ```
 3. [C2](https://github.com/c2lang/c2compiler) language has C backend. It means that results for C and C2 should be mostly the same.
-4. Surprisingly standard Java byte[] array outperforms Java Unsafe/Memory API for sequential memory acess (random access is also good).
+4. Surprisingly standard Java byte[] array outperforms Java Unsafe/Memory API for sequential memory acсess (random access is also good).
 5. [B language](https://github.com/tsoding/b) is not fully implemented yet, I added it mostly just for fun. However, B has some potential in low-level programming.
    
 ### ToDo
 1. Add C#, Rust, Ada, Go, Odin, Zig, Hare, Jai, Python, Nim, Pascal
-2. Re-test it all on Linux platform (currently I have only my working Win11 laptop with non-disableable antivirus, not good for performance testing)
+2. Re-test it on Linux platform (currently I have only my work Win11 laptop with non-disableable antivirus, not good for performance testing)
 3. Repeat the tests for smaller memory buffers (2^24 - 2^29). It will be intersting to investigate relative changes in performance with variable memory buffer and fixed CPU cache/ memory bandwidth. Most likely C or Rust implementations will be enough for such benchmarks.
 
