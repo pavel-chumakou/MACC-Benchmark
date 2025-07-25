@@ -1,5 +1,3 @@
-package com.chumakou;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -27,7 +25,7 @@ public class TestResultsComposer {
     }
 
     private static final Map<Test, List<TestResult>> testResults = new HashMap<>();
-    private static final Map<String, List<Test>> tests = new LinkedHashMap<>();
+    private static final Map<String, List<Test>> tests = new TreeMap<>();
 
     public static void main(String[] args) throws IOException {
         String dirPath;
@@ -54,6 +52,7 @@ public class TestResultsComposer {
                 tests.put(test.language, t);
             }
         }
+
         System.out.println(generateMarkdown());
     }
 
