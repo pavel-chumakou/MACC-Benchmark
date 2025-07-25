@@ -13,7 +13,7 @@ Every test run executes exactly the same memory access actions:
 ### Results
 | Language | Setup | Sequential write | Sequential read | Random write | Random read |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| B | <small>__asm__</small> |7974 | 3430 | 87344 | 66361 | 
+| B | <small>asm</small> |7974 | 3430 | 87344 | 66361 | 
 | B | <small>default</small> |11262 | 5217 | 110364 | 74002 | 
 | C | <small>gcc 13.1.0, -O3</small> |1636 | 192 | 10767 | 11238 | 
 | C2 | <small>c2c 58209d6d</small> |**1349** | **149** | **10660** | **10542** | 
