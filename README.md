@@ -32,7 +32,7 @@ Every benchmark executes exactly the same memory access actions:
 1. Each test is performed 5-10 times. Results table shows the average value in milliseconds.
 2. Results table was automitically generated using [TestResultsComposer.java](https://github.com/pavel-chumakou/MACC-Benchmark/blob/main/results/TestResultsComposer.java) tool:
 ```bash
-java TestResultsComposer.java ./win11_amd_8840hs/
+java ./results/TestResultsComposer.java ./results/win11_amd_8840hs/
 ```
 3. [C2](https://github.com/c2lang/c2compiler) language has C backend. It means that results for C and C2 should be mostly the same.
 4. Surprisingly standard Java byte[] array outperforms Java Unsafe/Memory API for sequential memory acсess (random access is also good).
