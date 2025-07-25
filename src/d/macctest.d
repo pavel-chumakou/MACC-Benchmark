@@ -65,7 +65,7 @@ void testMem(ubyte* memPtr, const(ubyte) memBits)
     elapsedTime = clock() - startTime;
     writeln("Sequential read: ", elapsedTime);
 
-	writeln("Result: ", result);
+    writeln("Result: ", result);
     writeln();
 }
 
@@ -77,7 +77,7 @@ int main()
     writeln("Options: ");
     writeln();
 
-	const(ubyte) memBits = 30;
+    const(ubyte) memBits = 30;
     ubyte* memPtr = cast(ubyte*)malloc(1L << memBits);
 
     for (int i = 0; i < 10; i++)

@@ -1,5 +1,5 @@
 Language: B
-Implementation: __asm__
+Implementation: inline asm
 Compiler:
 Options:
 
@@ -36,7 +36,7 @@ Result: 273800243080
 -----------------------------
 
 Language: B
-Implementation: default
+Implementation: 
 Compiler:
 Options:
 

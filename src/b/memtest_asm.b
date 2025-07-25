@@ -82,7 +82,7 @@ main() {
     auto memptr; memptr = malloc(1 << membits);
     
     printf("Language: %s\n", "B");
-    printf("Implementation: %s\n", "__asm__");
+    printf("Implementation: %s\n", "inline asm");
     printf("Compiler: \n");
     printf("Options: \n");
     printf("\n");
