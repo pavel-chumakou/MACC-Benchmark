@@ -1,0 +1,64 @@
+Language: Rust (unsafe)
+Implementation:
+Compiler: rustc 1.88.0
+Options: -O
+
+Sequential write: 1535
+Random read: 11050
+Random write: 11571
+Sequential read: 186
+Result: 273800243080
+
+Sequential write: 1608
+Random read: 11319
+Random write: 11026
+Sequential read: 149
+Result: 273800243080
+
+Sequential write: 1373
+Random read: 11851
+Random write: 11737
+Sequential read: 175
+Result: 273800243080
+
+Sequential write: 1888
+Random read: 11643
+Random write: 10941
+Sequential read: 150
+Result: 273800243080
+
+Sequential write: 1373
+Random read: 10729
+Random write: 11425
+Sequential read: 171
+Result: 273800243080
+
+Sequential write: 1885
+Random read: 12077
+Random write: 11069
+Sequential read: 142
+Result: 273800243080
+
+Sequential write: 1426
+Random read: 11247
+Random write: 11433
+Sequential read: 171
+Result: 273800243080
+
+Sequential write: 1873
+Random read: 12075
+Random write: 11288
+Sequential read: 144
+Result: 273800243080
+
+Sequential write: 1531
+Random read: 11532
+Random write: 11633
+Sequential read: 183
+Result: 273800243080
+
+Sequential write: 1847
+Random read: 12024
+Random write: 12495
+Sequential read: 171
+Result: 273800243080

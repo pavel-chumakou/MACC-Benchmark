@@ -1,0 +1,91 @@
+module memtest;
+
+import stdio as io;
+import libc_time;
+import sys_time;
+import stdlib;
+
+u64 seed = 50429807834;
+u64 multiplier = 25214903917;
+u8 addend = 11;
+u64 mask = ((u64)1 << 48) - 1;
+
+public fn u64 rand(u8 bits) 
+{
+    u64 nextSeed;
+    nextSeed = (seed * multiplier + addend) & mask;
+    seed = nextSeed;
+    return nextSeed >> (48 - bits);
+}
+
+public fn void reset_seed() 
+{
+    seed = 50429807834;
+}
+
+public fn void test_mem(u8* memPtr, u8 memBits)
+{
+    reset_seed();
+    
+    u32 memSize = (u32)1 << memBits;
+
+    // sequential write
+    u64 startTime = (u64)libc_time.clock();
+    for (u32 i = 0; i < memSize; i++)
+    {
+        memPtr[i] = (u8)rand(8);
+    }
+    u64 elapsedTime = (u64)libc_time.clock() - startTime;
+    io.printf("Sequential write: %d\n", elapsedTime / 1000);
+    
+    // random read
+    u64 result = 0;
+    startTime = (u64)libc_time.clock();
+    for (u32 i = 0; i < memSize; i++)
+    {
+        result += memPtr[rand(memBits)];
+    }
+    elapsedTime = (u64)libc_time.clock() - startTime;
+    io.printf("Random read: %d\n", elapsedTime / 1000);
+    
+    // random write
+    startTime = (u64)libc_time.clock();
+    for (u32 i = 0; i < memSize; i++)
+    {
+        u8 b = (u8)rand(8);
+        memPtr[rand(memBits)] = b;
+    }
+    elapsedTime = (u64)libc_time.clock() - startTime;
+    io.printf("Random write: %d\n", elapsedTime / 1000);
+    
+    // sequential read
+    startTime = (u64)libc_time.clock();
+    for (u32 i = 0; i < memSize; i++)
+    {
+        result += memPtr[i];
+    }
+    elapsedTime = (u64)libc_time.clock() - startTime;
+    io.printf("Sequential read: %d\n", elapsedTime / 1000);
+    
+    io.printf("Result: %d\n", result);
+    io.printf("\n");
+}    
+
+public fn i32 main(i32 argc, char** argv) { 
+    io.printf("Language: C2\n");
+    io.printf("Implementation: \n");
+    io.printf("Compiler: \n");
+    io.printf("Options: \n");
+    io.printf("\n");
+        
+    u8 memBits = 30;    
+    u8* memPtr = stdlib.malloc((u64)1 << memBits);
+
+    for (u32 i = 0; i < 10; i++)
+    {
+        test_mem(memPtr, memBits);
+    }
+
+    stdlib.free(memPtr);    
+    return 0;
+}

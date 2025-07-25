@@ -1,0 +1,65 @@
+Language: D
+Implementation:
+Compiler: dmd 2.111
+Options: -release -m64 -O -inline
+
+Sequential write: 1399
+Random read: 20761
+Random write: 14800
+Sequential read: 526
+Result: 273800243080
+
+Sequential write: 1395
+Random read: 20518
+Random write: 13798
+Sequential read: 518
+Result: 273800243080
+
+Sequential write: 1389
+Random read: 21058
+Random write: 13899
+Sequential read: 545
+Result: 273800243080
+
+Sequential write: 1446
+Random read: 20813
+Random write: 14237
+Sequential read: 517
+Result: 273800243080
+
+Sequential write: 1443
+Random read: 21214
+Random write: 13955
+Sequential read: 501
+Result: 273800243080
+
+Sequential write: 1417
+Random read: 19824
+Random write: 14564
+Sequential read: 526
+Result: 273800243080
+
+Sequential write: 1432
+Random read: 19922
+Random write: 14296
+Sequential read: 560
+Result: 273800243080
+
+Sequential write: 1443
+Random read: 20772
+Random write: 13858
+Sequential read: 527
+Result: 273800243080
+
+Sequential write: 1439
+Random read: 22376
+Random write: 16307
+Sequential read: 938
+Result: 273800243080
+
+Sequential write: 1321
+Random read: 21001
+Random write: 14263
+Sequential read: 599
+Result: 273800243080
+

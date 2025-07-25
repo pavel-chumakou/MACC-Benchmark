@@ -1,0 +1,9 @@
+plugin deps_generator [all-targets files private]
+plugin refs_generator [all-targets]
+
+executable memtest
+    $warnings no-unused
+    $backend c
+
+    memtest.c2
+end

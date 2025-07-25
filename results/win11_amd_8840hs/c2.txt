@@ -1,0 +1,64 @@
+Language: C2
+Implementation:
+Compiler: c2c 58209d6d
+Options: 
+
+Sequential write: 1181
+Random read: 10203
+Random write: 10030
+Sequential read: 116
+Result: 273800243080
+
+Sequential write: 1104
+Random read: 10177
+Random write: 10015
+Sequential read: 137
+Result: 273800243080
+
+Sequential write: 1265
+Random read: 10351
+Random write: 11698
+Sequential read: 161
+Result: 273800243080
+
+Sequential write: 1565
+Random read: 11027
+Random write: 11447
+Sequential read: 258
+Result: 273800243080
+
+Sequential write: 1688
+Random read: 10964
+Random write: 11410
+Sequential read: 159
+Result: 273800243080
+
+Sequential write: 1639
+Random read: 10934
+Random write: 10129
+Sequential read: 111
+Result: 273800243080
+
+Sequential write: 1117
+Random read: 10378
+Random write: 10596
+Sequential read: 127
+Result: 273800243080
+
+Sequential write: 1175
+Random read: 10377
+Random write: 10607
+Sequential read: 134
+Result: 273800243080
+
+Sequential write: 1204
+Random read: 10753
+Random write: 10331
+Sequential read: 157
+Result: 273800243080
+
+Sequential write: 1553
+Random read: 10259
+Random write: 10340
+Sequential read: 130
+Result: 273800243080

@@ -1,0 +1,41 @@
+Language: PureBasic
+Implementation:
+Compiler: PureBasic 6.21
+Options:
+
+Sequential write: 3047
+Random read: 35404
+Random write: 55783
+Sequential read: 1333
+Result: 273800243080
+
+Sequential write: 3077
+Random read: 36247
+Random write: 54149
+Sequential read: 1163
+Result: 273800243080
+
+Sequential write: 2815
+Random read: 37522
+Random write: 67292
+Sequential read: 2649
+Result: 273800243080
+
+Sequential write: 5526
+Random read: 44395
+Random write: 63059
+Sequential read: 1165
+Result: 273800243080
+
+Sequential write: 2775
+Random read: 35521
+Random write: 52177
+Sequential read: 1334
+Result: 273800243080
+
+Sequential write: 3065
+Random read: 34554
+Random write: 58489
+Sequential read: 1155
+Result: 273800243080
+

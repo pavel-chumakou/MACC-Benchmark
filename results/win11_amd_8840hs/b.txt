@@ -1,0 +1,73 @@
+Language: B
+Implementation: __asm__
+Compiler:
+Options:
+
+Sequential write: 4751
+Random read: 55135
+Random write: 85688
+Sequential read: 3277
+Result: 273800243080
+
+Sequential write: 8868
+Random read: 73265
+Random write: 86207
+Sequential read: 3382
+Result: 273800243080
+
+Sequential write: 8754
+Random read: 66189
+Random write: 83718
+Sequential read: 3032
+Result: 273800243080
+
+Sequential write: 8465
+Random read: 65652
+Random write: 93587
+Sequential read: 3724
+Result: 273800243080
+
+Sequential write: 9034
+Random read: 71566
+Random write: 87524
+Sequential read: 3737
+Result: 273800243080
+
+-----------------------------
+
+Language: B
+Implementation: default
+Compiler:
+Options:
+
+Sequential write: 9390
+Random read: 70709
+Random write: 112971
+Sequential read: 4659
+Result: 273800243080
+
+Sequential write: 10567
+Random read: 70562
+Random write: 106157
+Sequential read: 4397
+Result: 273800243080
+
+Sequential write: 9046
+Random read: 73729
+Random write: 112636
+Sequential read: 4449
+Result: 273800243080
+
+Sequential write: 8757
+Random read: 67526
+Random write: 122227
+Sequential read: 8556
+Result: 273800243080
+
+Sequential write: 18552
+Random read: 87488
+Random write: 97831
+Sequential read: 4026
+Result: 273800243080
+
+

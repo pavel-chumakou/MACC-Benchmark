@@ -1,0 +1,64 @@
+Language: C3
+Implementation: 
+Compiler: c3c 0.7.2
+Options: -O5
+
+Sequential write: 2752
+Random read: 12364
+Random write: 12797
+Sequential read: 212
+Result: 273800243080
+
+Sequential write: 4897
+Random read: 12868
+Random write: 12176
+Sequential read: 216
+Result: 273800243080
+
+Sequential write: 4953
+Random read: 14165
+Random write: 11899
+Sequential read: 268
+Result: 273800243080
+
+Sequential write: 5326
+Random read: 14465
+Random write: 12343
+Sequential read: 216
+Result: 273800243080
+
+Sequential write: 4838
+Random read: 13769
+Random write: 13018
+Sequential read: 237
+Result: 273800243080
+
+Sequential write: 5196
+Random read: 13881
+Random write: 12056
+Sequential read: 213
+Result: 273800243080
+
+Sequential write: 4842
+Random read: 13880
+Random write: 11780
+Sequential read: 222
+Result: 273800243080
+
+Sequential write: 4834
+Random read: 14553
+Random write: 13045
+Sequential read: 216
+Result: 273800243080
+
+Sequential write: 4958
+Random read: 13271
+Random write: 12759
+Sequential read: 215
+Result: 273800243080
+
+Sequential write: 4877
+Random read: 13321
+Random write: 12280
+Sequential read: 228
+Result: 273800243080
