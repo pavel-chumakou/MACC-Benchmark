@@ -1,6 +1,6 @@
 Language: B
-Implementation: inline asm
-Compiler:
+Implementation: asm
+Compiler: tsoding/b
 Options:
 
 Sequential write: 4751
@@ -37,7 +37,7 @@ Result: 273800243080
 
 Language: B
 Implementation: 
-Compiler:
+Compiler: tsoding/b
 Options:
 
 Sequential write: 9390

@@ -200,68 +200,68 @@ Result: 273800243080
 ----------------
 
 Language: Java
-Implementation: ByteBuffer
+Implementation: Direct ByteBuffer
 Compiler: jdk22
 Options: 
 
-Sequential write: 2907
-Random read: 17091
-Random write: 12860
-Sequential read: 1163
+Sequential write: 2761
+Random read: 15083
+Random write: 12122
+Sequential read: 462
 Result: 273800243080
 
-Sequential write: 2367
-Random read: 23991
-Random write: 11096
-Sequential read: 874
+Sequential write: 1160
+Random read: 17326
+Random write: 11694
+Sequential read: 772
 Result: 273800243080
 
-Sequential write: 1340
-Random read: 18149
-Random write: 10989
-Sequential read: 822
+Sequential write: 1212
+Random read: 16573
+Random write: 11022
+Sequential read: 791
 Result: 273800243080
 
-Sequential write: 1370
-Random read: 18994
-Random write: 11215
-Sequential read: 717
+Sequential write: 1229
+Random read: 17453
+Random write: 11403
+Sequential read: 777
 Result: 273800243080
 
-Sequential write: 1271
-Random read: 18436
-Random write: 10969
-Sequential read: 701
+Sequential write: 1229
+Random read: 17191
+Random write: 11436
+Sequential read: 693
 Result: 273800243080
 
-Sequential write: 1276
-Random read: 18788
-Random write: 11378
-Sequential read: 785
+Sequential write: 1155
+Random read: 16468
+Random write: 11259
+Sequential read: 689
 Result: 273800243080
 
-Sequential write: 1393
-Random read: 18070
-Random write: 10841
-Sequential read: 754
+Sequential write: 1139
+Random read: 16888
+Random write: 11866
+Sequential read: 691
 Result: 273800243080
 
-Sequential write: 1379
-Random read: 19497
-Random write: 10991
+Sequential write: 1197
+Random read: 17147
+Random write: 11028
+Sequential read: 821
+Result: 273800243080
+
+Sequential write: 1777
+Random read: 17813
+Random write: 11748
 Sequential read: 712
 Result: 273800243080
 
-Sequential write: 1277
-Random read: 19556
-Random write: 11417
-Sequential read: 759
-Result: 273800243080
-
-Sequential write: 1296
-Random read: 19187
-Random write: 11515
-Sequential read: 715
+Sequential write: 1195
+Random read: 19087
+Random write: 11052
+Sequential read: 749
 Result: 273800243080
 
 ------------------

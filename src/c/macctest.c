@@ -74,7 +74,7 @@ int main(void)
     printf("Options: \n");
     printf("\n");
 
-    const unsigned char memBits = 3;
+    const unsigned char memBits = 30;
     unsigned char* memPtr = malloc(1LL << memBits);
 
     for (int i = 0; i < 10; i++)

@@ -3,62 +3,62 @@ Implementation:
 Compiler: c2c 58209d6d
 Options: 
 
-Sequential write: 1181
-Random read: 10203
-Random write: 10030
-Sequential read: 116
+Sequential write: 1175
+Random read: 10292
+Random write: 11765
+Sequential read: 256
 Result: 273800243080
 
-Sequential write: 1104
-Random read: 10177
-Random write: 10015
-Sequential read: 137
+Sequential write: 2108
+Random read: 14125
+Random write: 10754
+Sequential read: 188
 Result: 273800243080
 
-Sequential write: 1265
-Random read: 10351
-Random write: 11698
-Sequential read: 161
+Sequential write: 2070
+Random read: 10970
+Random write: 10492
+Sequential read: 199
 Result: 273800243080
 
-Sequential write: 1565
-Random read: 11027
-Random write: 11447
-Sequential read: 258
+Sequential write: 2071
+Random read: 10286
+Random write: 10603
+Sequential read: 142
 Result: 273800243080
 
-Sequential write: 1688
-Random read: 10964
-Random write: 11410
-Sequential read: 159
+Sequential write: 1227
+Random read: 10179
+Random write: 10607
+Sequential read: 133
 Result: 273800243080
 
-Sequential write: 1639
-Random read: 10934
-Random write: 10129
-Sequential read: 111
+Sequential write: 1220
+Random read: 10438
+Random write: 10404
+Sequential read: 112
 Result: 273800243080
 
-Sequential write: 1117
-Random read: 10378
-Random write: 10596
-Sequential read: 127
+Sequential write: 1097
+Random read: 10231
+Random write: 10602
+Sequential read: 144
 Result: 273800243080
 
 Sequential write: 1175
-Random read: 10377
-Random write: 10607
-Sequential read: 134
+Random read: 10642
+Random write: 10538
+Sequential read: 125
 Result: 273800243080
 
-Sequential write: 1204
-Random read: 10753
-Random write: 10331
-Sequential read: 157
+Sequential write: 1101
+Random read: 10473
+Random write: 10249
+Sequential read: 124
 Result: 273800243080
 
-Sequential write: 1553
-Random read: 10259
-Random write: 10340
-Sequential read: 130
+Sequential write: 1103
+Random read: 11443
+Random write: 11859
+Sequential read: 228
 Result: 273800243080
