@@ -71,7 +71,7 @@ void testMem(ubyte* memPtr, const(ubyte) memBits)
 
 int main()
 {
-	writeln("Language: D");
+    writeln("Language: D");
     writeln("Implementation: ");
     writeln("Compiler: ");
     writeln("Options: ");
