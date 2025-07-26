@@ -14,20 +14,8 @@ reset_seed() {
     seed = 50429807834;
 }
 
-getbyte(ptr, i) { 
-    return ((ptr[i >> 3] >> ((i % 8) * 8)) & 0xFF);
-}
-
-setbyte(ptr, i, byte) { 
-    // clear byte 
-    ptr[i >> 3] &= (-(0xFF << (8 * (i % 8)))-1);  // ~x = -x -1
-    // set byte
-    ptr[i >> 3] |= (byte << (8 * (i % 8)));    
-}
-
-
 memtest(memptr, membits) {
-    extrn printf, clock;
+    extrn printf, clock, lchar, char;
     
     reset_seed();
     
@@ -37,7 +25,7 @@ memtest(memptr, membits) {
     auto timestamp; timestamp = clock();
     auto i; 
     i = 0; while (i < memsize) {
-        setbyte(memptr, i, rand(8));
+        lchar(memptr, i, rand(8));
         i++;
     }
     auto elapsed; elapsed = clock() - timestamp;
@@ -47,7 +35,7 @@ memtest(memptr, membits) {
     auto result; result = 0;
     timestamp = clock();
     i = 0; while (i < memsize) {
-        result += getbyte(memptr, rand(membits));
+        result += char(memptr, rand(membits));
         i++;
     }
     elapsed = clock() - timestamp;
@@ -57,7 +45,7 @@ memtest(memptr, membits) {
     timestamp = clock();
     i = 0; while (i < memsize) {
         auto r; r = rand(8);
-        setbyte(memptr, rand(membits), r);
+        lchar(memptr, rand(membits), r);
         i++;
     }
     elapsed = clock() - timestamp;
@@ -66,7 +54,7 @@ memtest(memptr, membits) {
     // sequential read
     timestamp = clock();
     i = 0; while (i < memsize) {
-        result += getbyte(memptr, i);
+        result += char(memptr, i);
         i++;
     }
     elapsed = clock() - timestamp;

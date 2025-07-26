@@ -1,73 +1,35 @@
 Language: B
-Implementation: asm
-Compiler: tsoding/b
-Options:
-
-Sequential write: 4751
-Random read: 55135
-Random write: 85688
-Sequential read: 3277
-Result: 273800243080
-
-Sequential write: 8868
-Random read: 73265
-Random write: 86207
-Sequential read: 3382
-Result: 273800243080
-
-Sequential write: 8754
-Random read: 66189
-Random write: 83718
-Sequential read: 3032
-Result: 273800243080
-
-Sequential write: 8465
-Random read: 65652
-Random write: 93587
-Sequential read: 3724
-Result: 273800243080
-
-Sequential write: 9034
-Random read: 71566
-Random write: 87524
-Sequential read: 3737
-Result: 273800243080
-
------------------------------
-
-Language: B
 Implementation: 
-Compiler: tsoding/b
+Compiler: bext-lang/b
 Options:
 
-Sequential write: 9390
-Random read: 70709
-Random write: 112971
-Sequential read: 4659
+Sequential write: 4558
+Random read: 50924
+Random write: 64592
+Sequential read: 1722
 Result: 273800243080
 
-Sequential write: 10567
-Random read: 70562
-Random write: 106157
-Sequential read: 4397
+Sequential write: 5499
+Random read: 48022
+Random write: 64277
+Sequential read: 1631
 Result: 273800243080
 
-Sequential write: 9046
-Random read: 73729
-Random write: 112636
-Sequential read: 4449
+Sequential write: 4479
+Random read: 50645
+Random write: 68305
+Sequential read: 1792
 Result: 273800243080
 
-Sequential write: 8757
-Random read: 67526
-Random write: 122227
-Sequential read: 8556
+Sequential write: 4513
+Random read: 48561
+Random write: 68479
+Sequential read: 1620
 Result: 273800243080
 
-Sequential write: 18552
-Random read: 87488
-Random write: 97831
-Sequential read: 4026
+Sequential write: 4468
+Random read: 46763
+Random write: 65298
+Sequential read: 1974
 Result: 273800243080
-
 

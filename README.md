@@ -14,8 +14,7 @@ Every benchmark executes exactly the same memory access actions:
 
 | Language | Setup | Sequential write | Sequential read | Random write | Random read |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| B | <small>asm, tsoding/b</small> |7974 | 3430 | 87344 | 66361 | 
-| B | <small>tsoding/b</small> |11262 | 5217 | 110364 | 74002 | 
+| B | <small>bext-lang/b</small> |4703 | 1747 | 66190 | 48983 |
 | C | <small>gcc 15.1.0, -O2</small> |**1215** | **139** | 11128 | 11557 | 
 | C2 | <small>c2c 58209d6d</small> |1434 | 165 | **10787** | **10907** | 
 | C3 | <small>c3c 0.7.2, -O5</small> |4747 | 224 | 12415 | 13653 | 
