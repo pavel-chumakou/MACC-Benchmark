@@ -3,62 +3,63 @@ Implementation:
 Compiler: c3c 0.7.2
 Options: -O5
 
-Sequential write: 2752
-Random read: 12364
-Random write: 12797
-Sequential read: 212
+Sequential write: 1361
+Random read: 11284
+Random write: 11594
+Sequential read: 143
 Result: 273800243080
 
-Sequential write: 4897
-Random read: 12868
-Random write: 12176
-Sequential read: 216
+Sequential write: 1488
+Random read: 11335
+Random write: 11644
+Sequential read: 163
 Result: 273800243080
 
-Sequential write: 4953
-Random read: 14165
-Random write: 11899
-Sequential read: 268
+Sequential write: 1959
+Random read: 11467
+Random write: 11363
+Sequential read: 144
 Result: 273800243080
 
-Sequential write: 5326
-Random read: 14465
-Random write: 12343
-Sequential read: 216
+Sequential write: 1421
+Random read: 11424
+Random write: 11662
+Sequential read: 180
 Result: 273800243080
 
-Sequential write: 4838
-Random read: 13769
-Random write: 13018
-Sequential read: 237
+Sequential write: 1926
+Random read: 11498
+Random write: 12081
+Sequential read: 144
 Result: 273800243080
 
-Sequential write: 5196
-Random read: 13881
-Random write: 12056
-Sequential read: 213
+Sequential write: 1440
+Random read: 11241
+Random write: 11877
+Sequential read: 121
 Result: 273800243080
 
-Sequential write: 4842
-Random read: 13880
-Random write: 11780
-Sequential read: 222
+Sequential write: 1424
+Random read: 12081
+Random write: 11443
+Sequential read: 137
 Result: 273800243080
 
-Sequential write: 4834
-Random read: 14553
-Random write: 13045
-Sequential read: 216
+Sequential write: 1357
+Random read: 11894
+Random write: 12135
+Sequential read: 155
 Result: 273800243080
 
-Sequential write: 4958
-Random read: 13271
-Random write: 12759
-Sequential read: 215
+Sequential write: 1449
+Random read: 11422
+Random write: 12295
+Sequential read: 135
 Result: 273800243080
 
-Sequential write: 4877
-Random read: 13321
-Random write: 12280
-Sequential read: 228
+Sequential write: 1360
+Random read: 11363
+Random write: 12680
+Sequential read: 135
 Result: 273800243080
+

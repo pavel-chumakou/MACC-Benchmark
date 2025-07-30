@@ -1,4 +1,4 @@
 all:
-	gcc -O2 -o macctest macctest.c 
+	gcc -O3 -o macctest macctest.c 
 
 

@@ -2,12 +2,12 @@ module memtest;
 import libc;
 
 ulong seed = 50429807834;
-ulong multiplier = 25214903917;
-ulong addend = 11L;
-ulong mask = ((ulong)1 << 48) - 1;
+const ulong MULTIPLIER = 25214903917;
+const ulong ADDEND = 11L;
+const ulong MASK = ((ulong)1 << 48) - 1;
 
 fn ulong rand(uint bits) {
-    ulong nextSeed = (seed * multiplier + addend) & mask;
+    ulong nextSeed = (seed * MULTIPLIER + ADDEND) & MASK;
     seed = nextSeed;
     return nextSeed >> (48 - bits);
 }

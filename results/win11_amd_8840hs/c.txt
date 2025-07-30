@@ -1,64 +1,64 @@
 Language: C
 Implementation:
 Compiler: gcc 15.1.0
-Options: -O2
+Options: -O3
 
-Sequential write: 1407
-Random read: 11803
-Random write: 11235
-Sequential read: 155
+Sequential write: 1162
+Random read: 10978
+Random write: 11234
+Sequential read: 135
 Result: 273800243080
 
-Sequential write: 1260
-Random read: 11938
-Random write: 11187
-Sequential read: 134
+Sequential write: 1107
+Random read: 10831
+Random write: 10561
+Sequential read: 144
 Result: 273800243080
 
-Sequential write: 1161
-Random read: 11803
-Random write: 10999
-Sequential read: 145
+Sequential write: 1170
+Random read: 10750
+Random write: 10412
+Sequential read: 135
 Result: 273800243080
 
-Sequential write: 1214
-Random read: 11599
-Random write: 11397
-Sequential read: 118
+Sequential write: 1104
+Random read: 10317
+Random write: 11510
+Sequential read: 141
 Result: 273800243080
 
-Sequential write: 1157
-Random read: 11461
-Random write: 11042
-Sequential read: 136
+Sequential write: 1108
+Random read: 11099
+Random write: 11224
+Sequential read: 142
 Result: 273800243080
 
-Sequential write: 1182
-Random read: 11627
-Random write: 11005
-Sequential read: 150
+Sequential write: 1150
+Random read: 11615
+Random write: 11176
+Sequential read: 212
 Result: 273800243080
 
-Sequential write: 1254
-Random read: 11163
-Random write: 11031
-Sequential read: 151
+Sequential write: 1592
+Random read: 10669
+Random write: 10810
+Sequential read: 143
 Result: 273800243080
 
-Sequential write: 1197
-Random read: 11359
-Random write: 11134
-Sequential read: 127
-Result: 273800243080
-
-Sequential write: 1159
-Random read: 11378
-Random write: 11193
+Sequential write: 1121
+Random read: 10773
+Random write: 11126
 Sequential read: 138
 Result: 273800243080
 
-Sequential write: 1165
-Random read: 11439
-Random write: 11066
-Sequential read: 143
+Sequential write: 1219
+Random read: 11237
+Random write: 11166
+Sequential read: 135
+Result: 273800243080
+
+Sequential write: 1106
+Random read: 10877
+Random write: 10584
+Sequential read: 137
 Result: 273800243080

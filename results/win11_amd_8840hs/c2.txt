@@ -3,62 +3,62 @@ Implementation:
 Compiler: c2c 58209d6d
 Options: 
 
-Sequential write: 1175
-Random read: 10292
-Random write: 11765
-Sequential read: 256
+Sequential write: 1181
+Random read: 10830
+Random write: 10984
+Sequential read: 127
 Result: 273800243080
 
-Sequential write: 2108
-Random read: 14125
-Random write: 10754
-Sequential read: 188
+Sequential write: 1093
+Random read: 10957
+Random write: 11287
+Sequential read: 123
 Result: 273800243080
 
-Sequential write: 2070
-Random read: 10970
-Random write: 10492
-Sequential read: 199
+Sequential write: 1105
+Random read: 10610
+Random write: 11189
+Sequential read: 138
 Result: 273800243080
 
-Sequential write: 2071
-Random read: 10286
-Random write: 10603
-Sequential read: 142
-Result: 273800243080
-
-Sequential write: 1227
-Random read: 10179
-Random write: 10607
-Sequential read: 133
-Result: 273800243080
-
-Sequential write: 1220
-Random read: 10438
-Random write: 10404
-Sequential read: 112
-Result: 273800243080
-
-Sequential write: 1097
-Random read: 10231
-Random write: 10602
+Sequential write: 1186
+Random read: 11085
+Random write: 11088
 Sequential read: 144
 Result: 273800243080
 
-Sequential write: 1175
-Random read: 10642
-Random write: 10538
-Sequential read: 125
+Sequential write: 1166
+Random read: 10765
+Random write: 11083
+Sequential read: 126
 Result: 273800243080
 
-Sequential write: 1101
-Random read: 10473
-Random write: 10249
-Sequential read: 124
+Sequential write: 1100
+Random read: 10764
+Random write: 11058
+Sequential read: 123
 Result: 273800243080
 
-Sequential write: 1103
-Random read: 11443
-Random write: 11859
-Sequential read: 228
+Sequential write: 1099
+Random read: 10645
+Random write: 11626
+Sequential read: 142
+Result: 273800243080
+
+Sequential write: 1182
+Random read: 10833
+Random write: 10345
+Sequential read: 144
+Result: 273800243080
+
+Sequential write: 1223
+Random read: 10417
+Random write: 10720
+Sequential read: 113
+Result: 273800243080
+
+Sequential write: 1125
+Random read: 10789
+Random write: 11248
+Sequential read: 129
 Result: 273800243080
