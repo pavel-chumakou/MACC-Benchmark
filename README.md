@@ -15,9 +15,9 @@ Every benchmark executes exactly the same memory access actions:
 | Language | Setup | Sequential write | Sequential read | Random write | Random read |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | B | <small>bext-lang/b</small> |4703 | 1747 | 66190 | 48983 |
-| C | <small>gcc 15.1.0, -O2</small> |**1215** | **139** | 11128 | 11557 | 
-| C2 | <small>c2c 58209d6d</small> |1434 | 165 | **10787** | **10907** | 
-| C3 | <small>c3c 0.7.2, -O5</small> |4747 | 224 | 12415 | 13653 | 
+| C | <small>gcc 15.1.0, -O3</small> |1183 | 146 | **10980** | 10914 | 
+| C2 | <small>c2c 58209d6d</small> |**1146** | **130** | 11062 | **10769** | 
+| C3 | <small>c3c 0.7.2, -O5</small> |1518 | 145 | 11877 | 11500 | 
 | D | <small>dmd 2.111, -O</small> |1412 | 575 | 14397 | 20825 | 
 | Java | <small>byte[] array, jdk22</small> |1245 | 289 | 11199 | 16018 | 
 | Java | <small>Direct ByteBuffer, jdk22</small> |1405 | 715 | 11463 | 17102 | 
